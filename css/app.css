@@ -45,7 +45,7 @@ section {
 
 .debug header {
   min-height: 10px;
-  background-color: rgb(173, 224, 224);
+  background-color: #255EE9;
   padding: 20px
 }
 
@@ -102,7 +102,7 @@ diverse sul giallo */
 
 /* immagine background prima sezione */
 .blu {
-  background: url(../img/jumbo.png);
+  background: url(./../img/jumbo.png);
   background-size: cover;
 }
 
@@ -178,7 +178,8 @@ CON SFONDO GRIGIO */
 /* SEZIONE SFONDO GRIGIO QUADRATO VERDE */
 
 .row .green-square {
-  background-color: green;
+  /* background-color: green; */
+
   flex-basis: 100%;
   min-height: 1000px;
 }
