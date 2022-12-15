@@ -73,6 +73,7 @@ button{
   cursor: pointer;
   background-color: white;
   border: 10px solid white;
+  border-radius: 15px;
 }
 
 /* (su) creo un bordo tratteggiato per visualizzare
@@ -130,7 +131,7 @@ diverse sul giallo */
 
 .container-blu {
   margin: 0 auto;
-  max-width: 450px;
+  
 }
 
 .color-title,
