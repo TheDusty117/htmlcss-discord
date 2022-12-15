@@ -76,6 +76,25 @@ button{
   border-radius: 15px;
 }
 
+.tasto-bianco {
+  margin: 20px 0px 0px 5px;
+}
+
+.tasto-nero {
+  margin: 20px 0px 0px 5px;
+  background-color: #23272A;
+  border-color: #23272A;
+  color: white;
+}
+
+.tasto-viola {
+  
+  background-color: #7289DA;
+  border-color: #7289DA;
+  color: white;
+
+}
+
 /* (su) creo un bordo tratteggiato per visualizzare
 la forma del mio primo flex-container. */
 
@@ -116,6 +135,10 @@ diverse sul giallo */
   
 }
 
+.row {
+  justify-content: center;
+}
+
 /* immagine background prima sezione */
 .blu {
   background: url(./../img/jumbo.png);
@@ -127,6 +150,7 @@ diverse sul giallo */
   flex-basis: 100%;
   min-height: 300px;
   text-align: center;
+  max-width: 700px;
 }
 
 .container-blu {
@@ -205,6 +229,28 @@ button {
   text-align: center;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SEZIONE ELEMENTI INCOLONNATI SFONDO SLATE */
 
 .debug .slate {
@@ -247,17 +293,20 @@ li {
   font-size: 30px;
 }
 
+.bandiera-italiana {
+  max-width: 20px;
+}
+
 /* SEZIONE FINALE SLATE CON LOGO BOTTONE */
 
 .debug .container-aqua {
   padding: 30px 0px;
   /* background-color: aqua; */
-  border: 4px dashed black;
+  /* border: 4px dashed black; */
+
+  border-top: 5px solid #7289DA;
 }
 
-.row {
-  justify-content: space-between;
-}
 
 .logo2,
 .button {
@@ -265,6 +314,9 @@ li {
   text-align: center;
 }
 
+.row-footer {
+  justify-content: space-between;
+}
 
 /* all'intero della prima parte del footer andremo
 ad aggiungere una unordered LIST, con tutti i
