@@ -4,10 +4,16 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'PT Sans', sans-serif;
+
+}
+
 
 /* FONT SPECS */
 p {
   font-size: 20px;
+  line-height: 25px;
 }
 
 h1 {
@@ -101,7 +107,7 @@ diverse sul giallo */
 }
 
 .row .fuchsia-square {
-  background-color: fuchsia;
+  /* background-color: fuchsia; */
   flex-basis: 100%;
   min-height: 300px;
   text-align: center;
@@ -110,6 +116,11 @@ diverse sul giallo */
 .container-blu {
   margin: 0 auto;
   max-width: 450px;
+}
+
+.color-title,
+.color-description {
+  color: white;
 }
 
 
@@ -124,42 +135,44 @@ che occupi il rimanente */
 /* CREATA UNA SECONDA SERIE DI CLASSI PER LA VERSIONE
 CON SFONDO GRIGIO */
 
-/* SEZIONI CON ASIDE E MAIN */
+/* SEZIONI CON ASIDE E MAIN *********************/
 
 
 
 .debug .white {
-  min-height: 600px;
+  /* min-height: 600px; */
+
   background-color: white;
   padding: 20px;
 }
 
 .debug .grey {
-  min-height: 600px;
-  background-color: gray;
+  /* min-height: 600px; */
+  
+  background-color: #F6F6F6;
   padding: 20px;
 }
 
 .row .aside {
   flex-basis: 60%;
   /* background-color: lightskyblue; */
-  min-height: 500px;
+  /* min-height: 500px; */
 }
 
-/* AGGIUNTA IMMAGINI DEGLI ASIDE */
-
-.row .col-aside1 {  
-  background-image: url(../img/item1.svg);
-}
 
 .row .main {
   flex-basis: 40%;
-  background-color: lightpink;
-  min-height: 500px;
+
+  /* background-color: lightpink; */
+  /* min-height: 500px; */
 }
 
 .row-reverse {
   flex-direction: row-reverse;
+}
+
+.div-content > * {
+  padding: 30px 20px 20px 20px;
 }
 
 /* SEZIONE SFONDO GRIGIO QUADRATO VERDE */
