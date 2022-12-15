@@ -181,40 +181,61 @@ CON SFONDO GRIGIO */
   /* background-color: green; */
 
   flex-basis: 100%;
-  min-height: 1000px;
+  min-height: 700px;
+}
+
+h2,
+button {
+  text-align: center;
 }
 
 /* SEZIONE ELEMENTI INCOLONNATI SFONDO SLATE */
 
 .debug .slate {
   min-height: 300px;
-  background-color: darkslategrey;
+  background-color: #23272A;
   padding: 20px;
 }
 
 .colmain,
 .colsecondary {
-  min-height: 700px;
+  min-height: ;
 }
 
 .colmain {
-  background-color: salmon;
+  /* background-color: salmon; */
 
 }
 
 .colsecondary {
-  background-color: teal;
+  /* background-color: teal; */
 }
 
 .row .colmain {
-  flex-basis: 40%;
+  flex-basis: 35%;
+}
+
+/* reset stile ul lista */
+
+ul {
+  list-style-type: none; 
+  color: #7289DA;
+}
+
+li {
+  padding: 10px;
+  color: white;
+}
+
+.slogan-footer {
+  font-size: 30px;
 }
 
 /* SEZIONE FINALE SLATE CON LOGO BOTTONE */
 
 .debug .container-aqua {
   padding: 30px 0px;
-  background-color: aqua;
+  /* background-color: aqua; */
   border: 4px dashed black;
 }
 
@@ -227,6 +248,7 @@ CON SFONDO GRIGIO */
   background-color: pink;
   text-align: center;
 }
+
 
 /* all'intero della prima parte del footer andremo
 ad aggiungere una unordered LIST, con tutti i
