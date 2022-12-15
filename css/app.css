@@ -59,9 +59,20 @@ corrispettivo visivo */
 
 .debug .container {
   padding: 5px;
-  background-color: gold;
+  /* background-color: gold; */
   border: 4px dashed black;
   text-align: center;
+}
+
+span {
+  color: white;
+}
+
+button{
+  all: unset;
+  cursor: pointer;
+  background-color: white;
+  border: 10px solid white;
 }
 
 /* (su) creo un bordo tratteggiato per visualizzare
