@@ -61,7 +61,7 @@ corrispettivo visivo */
 .debug .container {
   padding: 5px;
   /* background-color: gold; */
-  border: 4px dashed black;
+  /* border: 4px dashed black; */
   text-align: center;
 }
 
@@ -100,7 +100,7 @@ button{
 la forma del mio primo flex-container. */
 
 .debug .col {
-  border: 4px dashed black;
+  /* border: 4px dashed black; */
 }
 
 
@@ -254,6 +254,16 @@ button {
 
 
 
+
+.wave {
+  filter: invert(1);
+  background-color: #080808;
+}
+
+.wave2 {
+  filter: invert(1);
+  background-color: #080808;
+}
 
 
 
