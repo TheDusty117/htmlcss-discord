@@ -34,7 +34,8 @@ section {
 .container,
 .container1,
 .container-slate1,
-.container-aqua {
+.container-aqua,
+.container-mago {
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -230,12 +231,26 @@ button {
 }
 
 
+.container-mago {
+  display: flex;
+  justify-content: center;
+}
 
+.row-mago {
+  
+}
 
+.col-mago {
+  text-align: center;
+}
 
+.button-center {
+  text-align: center;
+}
 
-
-
+#question {
+  font-size: 30px;
+}
 
 
 
