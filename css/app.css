@@ -114,6 +114,20 @@ header .row {
   justify-content: space-between;
 }
 
+
+.menu {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+
+
 /* devi lavorare sulla direzione per creare tre sezioni
 diverse sul giallo */
 
@@ -130,7 +144,7 @@ diverse sul giallo */
 
 
 .debug .blu {
-  min-height: ;
+  
   background-color: blue;
   padding: 20px;
   
@@ -142,8 +156,10 @@ diverse sul giallo */
 
 /* immagine background prima sezione */
 .blu {
-  background: url(./../img/jumbo.png);
+  background: url('./../img/jumbo.png');
   background-size: cover;
+  background-position: center bottom;
+  padding: 250px 0px 150px 0px;
 }
 
 .row .fuchsia-square {
@@ -286,7 +302,7 @@ button {
 
 .colmain,
 .colsecondary {
-  min-height: ;
+
 }
 
 .colmain {
